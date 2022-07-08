@@ -13,7 +13,7 @@ function rot13(message) {
   for (i = 0; i < messageArr.length; i++) {
     
     let index = alphaArr.indexOf(messageArr[i]);
-    console.log(index)
+    
 
     if(alphaArr.includes(messageArr[i].toLowerCase())){
          if (index === -1){
