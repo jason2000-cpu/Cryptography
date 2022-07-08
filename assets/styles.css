@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color:rgb(45, 45, 150)
+
+}
+
+.container{
+    background-color: white;
+    padding-bottom: 2em;
+    border: 1px solid black;  
+    margin: 14% 30% 0 30%;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px black;
+}
+.input,button{
+    margin-bottom:5%;
+}
+button{
+    background-color:rgb(45, 45, 150);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;;
+    box-shadow: 3px 3px 4px black
+}
+button:active{
+    box-shadow: 2px 2px 2px black
+}
+input{
+    font-size: 20px;
+}
+textarea{
+    border: none;
+    outline:none;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
