@@ -6,7 +6,7 @@ let results = document.querySelector("#output")
 function rot13(message) {
 
   let alphabets = "abcdefghijklmnopqrstuvwxyz";
-  let specChar = "!@#$%^&*()_+~=-".split('')
+  let specChar = "!@#$%^&*~".split('')
   let alphaArr = alphabets.split("");
   let messageArr = message.split("");
   let cipherArr =[];
